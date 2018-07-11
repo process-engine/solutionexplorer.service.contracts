@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@essential-projects/core_contracts": "^2.0.0",
-    "@process-engine/solutionexplorer.contracts": "0.0.1"
+    "@process-engine/solutionexplorer.contracts": "1.0.0"
   },
   "devDependencies": {
     "@essential-projects/tslint-config": "1.0.0",
