@@ -28,6 +28,31 @@ export interface ISolutionExplorerService {
   loadDiagram(diagramName: string): Promise<IDiagram>;
 
   /**
+   * Loads a single diagram outside of the current solution.
+   *
+   * @param pathToDiagram The full path to the file.
+   * @returns A promise, resolving to the loaded diagram.
+   * @throws {ForbiddenError} When the authority couldn't authorize the request
+   * with given credentials.
+   * @throws {UnauthorizedError} When there where no valid authentication
+   * credentials given.
+   */
+  openSingleDiagram(pathToDiagram: string, identity: IIdentity): Promise<IDiagram>;
+
+  /**
+   * Saves a single diagram outside the context of a solution.
+   * @param diagramToSave The diagram to save.
+   * @param identity The identity that is used to authorize, currently unused.
+   * @param path The path to save the diagram, if not set it defaults to the uri
+   * set in the diagram itself.
+   * @returns The saved diagram.
+   * @throws {ForbiddenError} When the authority couldn't authorize the request
+   * with given credentials.
+   * @throws {UnauthorizedError} When there where no valid authentication
+   * credentials given.
+   */
+  saveSingleDiagram(diagramToSave: IDiagram, identity: IIdentity, path?: string): Promise<IDiagram>;
+  /**
    * Saves the given solution and all its diagrams. If a solution already
    * exists, it will be overriden. This method does not modify the currently
    * loaded pathspec.

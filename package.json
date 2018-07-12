@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/solutionexplorer.service.contracts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CContracts for the SolutionExplorer Service",
   "main": "dist/amd/index.js",
   "typings": "dist/index.d.ts",
@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "@essential-projects/core_contracts": "^2.0.0",
-    "@process-engine/solutionexplorer.contracts": "0.0.1"
+    "@process-engine/solutionexplorer.contracts": "1.0.0"
   },
   "devDependencies": {
     "@essential-projects/tslint-config": "1.0.0",
