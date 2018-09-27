@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/solutionexplorer.service.contracts",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CContracts for the SolutionExplorer Service",
   "main": "dist/amd/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@essential-projects/core_contracts": "^2.0.0",
+    "@essential-projects/iam_contracts": "^3.1.0",
     "@process-engine/solutionexplorer.contracts": "1.0.0"
   },
   "devDependencies": {
