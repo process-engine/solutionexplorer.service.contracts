@@ -15,8 +15,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@essential-projects/core_contracts": "^2.0.0",
-    "@process-engine/solutionexplorer.contracts": "1.0.0"
+    "@essential-projects/iam_contracts": "^3.1.0",
+    "@process-engine/solutionexplorer.contracts": "0.0.1"
   },
   "devDependencies": {
     "@essential-projects/tslint-config": "1.0.0",
