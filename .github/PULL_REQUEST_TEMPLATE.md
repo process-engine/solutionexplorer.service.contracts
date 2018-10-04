@@ -6,8 +6,8 @@ To help us to create a meaningful Changelog, we agreed
 to use an emoji-based commit-style. Use the [Emojis](#emojis)
 we provided below.
 
-Fill out the following, provide reference to issues
-and this PR- we will use this as merge commit message-body
+Fill out the following, provide references to issues
+and this PR-- we will use this as merge-commit message body
 and the title of this PR as commit-headline:
 
 ---
@@ -45,7 +45,7 @@ Please check the boxes in this list after submitting your PR:
 - [x] I've rebased the `develop` branch with my branch before finishing this PR.
 - [x] I've **summarized all changes** in a list above.
 - [x] I've mentioned all **PRs, which relate to this one**.
-- [x] I've prefixed my Pull Request title is according to [gitmoji guide](https://gitmoji.carloscuesta.me/).
+- [x] I've prefixed my Pull Request title according to [gitmoji guide](https://gitmoji.carloscuesta.me/).
 
 ## Example
 
@@ -117,3 +117,5 @@ Ref: https://gitmoji.carloscuesta.me/
 | Work In Progress (WIP)   | `:construction:`     | 🚧     |
 
 </details>
+
+Template Version 1.1
