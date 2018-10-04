@@ -41,4 +41,4 @@ Please check the boxes in this list after submitting your Issue:
 - [ ] I've added logs and/or screenshots (if applicable).
 - [ ] I've mentioned PRs and issues that relate to this one.
 
-Temppate Version 1.1
+Template Version 1.1
