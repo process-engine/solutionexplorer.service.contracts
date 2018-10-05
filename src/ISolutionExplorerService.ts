@@ -71,4 +71,23 @@ export interface ISolutionExplorerService {
    *                 of the diagram if omitted.
    */
   saveDiagram(diagram: IDiagram, pathspec?: string): Promise<void>;
+
+  /**
+   * Deletes the diagram from the solution.
+   *
+   * @param diagram The diagram to delete.
+   * @returns A promise, resolving once the diagram has been deleted.
+   * @throws {ForbiddenError} When required claims are missing.
+   */
+  deleteDiagram(diagram: IDiagram): Promise<void>;
+
+  /**
+   * Renames the diagram to the given name.
+   *
+   * @param diagram The diagram to rename.
+   * @param newName The new name of the diagram.
+   * @returns A promise, resolving with the renamed diagram.
+   * @throws {ForbiddenError} When required claims are missing.
+   */
+  renameDiagram(diagram: IDiagram, newName: string): Promise<IDiagram>;
 }
