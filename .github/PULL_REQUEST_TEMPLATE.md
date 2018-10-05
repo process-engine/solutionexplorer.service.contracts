@@ -118,4 +118,4 @@ Ref: https://gitmoji.carloscuesta.me/
 
 </details>
 
-Template Version 1.1
+<!-- Template Version 1.1 -->
