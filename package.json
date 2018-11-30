@@ -1,7 +1,7 @@
 {
   "name": "@process-engine/solutionexplorer.service.contracts",
-  "version": "3.0.0",
-  "description": "CContracts for the SolutionExplorer Service",
+  "version": "4.0.0",
+  "description": "Contracts for the SolutionExplorer Service",
   "main": "dist/amd/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
