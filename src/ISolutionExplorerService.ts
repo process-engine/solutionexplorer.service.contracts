@@ -23,8 +23,8 @@ export interface ISolutionExplorerService {
    * Loads a single diagram from the current solution.
    *
    * @param diagramName The name of the diagram to load.
-   * @param pathspec The target path for the load operation, defaults to the source
-   *                 of the current solution if omitted.
+   * @param pathspec The target path for the load operation.
+   *                 Defaults to the source of the current solution.
    * @returns A promise, resolving to the loaded diagram.
    */
   loadDiagram(diagramName: string, pathspec?: string): Promise<IDiagram>;
