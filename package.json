@@ -14,10 +14,10 @@
   "license": "MIT",
   "dependencies": {
     "@essential-projects/iam_contracts": "^3.1.0",
-    "@process-engine/solutionexplorer.contracts": "1.0.0"
+    "@process-engine/solutionexplorer.contracts": "^1.0.0"
   },
   "devDependencies": {
-    "@essential-projects/tslint-config": "1.0.0",
+    "@essential-projects/tslint-config": "^1.0.0",
     "gulp": "^4.0.0",
     "gulptraum": "^3.0.0",
     "gulptraum-typescript": "^3.0.0",
