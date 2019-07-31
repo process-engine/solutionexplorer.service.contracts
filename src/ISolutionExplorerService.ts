@@ -3,6 +3,12 @@ import {IDiagram, ISolution} from '@process-engine/solutionexplorer.contracts';
 
 export interface ISolutionExplorerService {
 
+  addFileToWatch(filepath: string): void;
+  removeFileFromWatching(filepath: string): void;
+
+  addFileChangeCallback(callback: (path: string) => void): void;
+  removeFileChangeCallback(callback: (path: string) => void): void;
+
   /**
    * Prepares the solution explorer service to load a given path specification.
    *
