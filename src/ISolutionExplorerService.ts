@@ -3,7 +3,7 @@ import {IDiagram, ISolution} from '@process-engine/solutionexplorer.contracts';
 
 export interface ISolutionExplorerService {
 
-  watchFile(filepath: string, callback: (path: string) => void): void;
+  watchFile(filepath: string, callback: (event: string, previousFilepath: string, newFilename: string) => void): void;
 
   unwatchFile(filepath: string): void;
 
