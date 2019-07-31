@@ -5,7 +5,7 @@ export interface ISolutionExplorerService {
 
   watchFile(filepath: string, callback: (path: string) => void): void;
 
-  removeFileChangeCallback(filepath: string): void;
+  unwatchFile(filepath: string): void;
 
   /**
    * Prepares the solution explorer service to load a given path specification.
