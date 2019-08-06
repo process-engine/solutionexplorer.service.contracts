@@ -1,7 +1,24 @@
 import {IIdentity} from '@essential-projects/iam_contracts';
 import {IDiagram, ISolution} from '@process-engine/solutionexplorer.contracts';
 
+import {IFileChangedCallback} from './index';
+
 export interface ISolutionExplorerService {
+
+  /**
+   * Monitors the specified file and calls the specified callback if the file has been moved, renamed, or the content changed.
+   *
+   * @param filepath The path of the file to watch.
+   * @param callback The function that gets called as soon as the file was changed/moved.
+   */
+  watchFile(filepath: string, callback: IFileChangedCallback): void;
+
+  /**
+   * Stops watching the specified file.
+   *
+   * @param filepath The path of the file that should no longer be watched.
+   */
+  unwatchFile(filepath: string): void;
 
   /**
    * Prepares the solution explorer service to load a given path specification.
