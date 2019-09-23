@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@essential-projects/iam_contracts": "^3.1.0",
-    "@process-engine/solutionexplorer.contracts": "^1.0.0"
+    "@process-engine/solutionexplorer.contracts": "feature~use_eslint_and_tsc"
   },
   "devDependencies": {
     "@essential-projects/eslint-config": "^1.0.0",
