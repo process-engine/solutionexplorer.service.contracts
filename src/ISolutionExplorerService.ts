@@ -21,6 +21,22 @@ export interface ISolutionExplorerService {
   unwatchFile(filepath: string): void;
 
   /**
+   * Monitors the solution and calls the specified callback if something in the solution has changed.
+   *
+   * @param callback The function that gets called as soon as the something in the solution was changed.
+   *
+   * @returns The id of the created EventListener, which is used to remove the EventListener.
+   */
+  watchSolution(callback: Function): string;
+
+  /**
+   * Stops watching the solution.
+   *
+   * @param eventListenerId The id of the EventListener
+   */
+  unwatchSolution(eventListenerId: string): void;
+
+  /**
    * Prepares the solution explorer service to load a given path specification.
    *
    * @param pathspec The path specification to load.
