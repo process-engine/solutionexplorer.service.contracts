@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/solutionexplorer.service.contracts",
-  "version": "4.3.0-beta.1",
+  "version": "4.4.0",
   "description": "Contracts for the SolutionExplorer Service",
   "main": "dist/amd/index.js",
   "typings": "dist/index.d.ts",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@essential-projects/iam_contracts": "^3.1.0",
-    "@process-engine/solutionexplorer.contracts": "1.2.0-beta.1"
+    "@process-engine/solutionexplorer.contracts": "1.2.0"
   },
   "devDependencies": {
     "@essential-projects/eslint-config": "^1.0.0",
