@@ -21,7 +21,7 @@
     "@process-engine/solutionexplorer.contracts": "1.2.0"
   },
   "devDependencies": {
-    "@essential-projects/eslint-config": "^1.0.0",
+    "@essential-projects/eslint-config": "^1.2.1",
     "@process-engine/ci_tools": "^2.2.1",
     "eslint": "^5.16.0",
     "tsconfig": "^7.0.0",
