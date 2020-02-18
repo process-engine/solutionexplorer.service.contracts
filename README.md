@@ -1,6 +1,6 @@
 # SolutionExplorer Service Contracts
 
-A subpackage for the SolutionExplorer which provides the contracts for the [service](https://github.com/process-engine/solutionexplorer.service) used by the [BPMN Studio](https://github.com/process-engine/bpmn-studio).
+A subpackage for the SolutionExplorer which provides the contracts for the [service](https://github.com/process-engine/solutionexplorer.service) used by [BPMN Studio](https://github.com/process-engine/bpmn-studio).
 
 ## Relevant URLs 
 
